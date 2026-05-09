@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated reports and imports
+reports/
+monthly_outputs/
+imported_files/
+n8n_out/
+backups/
+
+# Real Excel / CSV data
+*.xlsx
+*.xls
+*.csv
+
+# Sensitive local config
+n8n_email_config.json
+last_google_sheet_url.txt
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
